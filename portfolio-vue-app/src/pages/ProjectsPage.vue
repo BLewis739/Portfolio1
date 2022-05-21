@@ -1,6 +1,7 @@
 <template>
   <div class="page-wrapper">
-    <header>
+    <header class="project-page-header">
+      My Projects
     </header>
     <div class="project-cards-wrapper">
       <div :key="item.id" v-for="item in projectData">

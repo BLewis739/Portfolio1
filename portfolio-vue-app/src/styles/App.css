@@ -27,6 +27,14 @@ nav {
     Project Page STYLING
 /////////////////// */
 
+.project-page-header {
+  font-family: Helvetica, sans-serif;
+  font-size: 48px;
+  text-align: center;
+  margin: 30px;
+  font-weight: 700;
+}
+
 .card {
   border: solid black 3px;
   margin: 10px 5px;
@@ -170,4 +178,17 @@ nav {
   .additional-text {
     font-size: 20px;
   }
+}
+
+/* ///////////////////
+    Contact Page STYLING
+/////////////////// */
+
+.social-links {
+  margin: 15px;
+  text-align: center;
+}
+
+.social-link {
+  margin: 20px;
 }
