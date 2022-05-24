@@ -21,6 +21,10 @@
         I am a full stack developer living in the Greater Boston area. I am a highly motivated problem solver who thrives in work environments that require creativity, flexibility, collaboration, and unique challenges. 
         Outside of programming, I have several artistic pursuits in design, multimedia production, and live performance. Prior to becoming a developer, I worked as a science teacher, and helped young people pique their interest in technology.
       </div>
+      <div class="button-container">
+        <router-link to="/projects" class="nav-link">Click to See My Most Recent Projects</router-link>
+        <button>Click to Download a PDF of My Resume</button>
+      </div>
     </div>
   </div>
 </template>

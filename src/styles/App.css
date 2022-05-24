@@ -206,6 +206,12 @@ nav {
   background-color: #555555;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
 @media screen and (max-width: 600px) {
   .face-image-wrapper img {
     width: 200px;
