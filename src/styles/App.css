@@ -1,10 +1,14 @@
+* {
+  background-color: black;
+  color: #dddddd
+}
+
 /* ///////////////////
     NAV BAR STYLING
 /////////////////// */
 
 nav {
   height: 30px;
-  background-color: #999999;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -14,6 +18,7 @@ nav {
   font-family: Helvetica, sans-serif;
   text-decoration: none;
   padding: 6px 20px;
+  background-color: #dddddd;
   color: black;
 }
 
@@ -36,32 +41,47 @@ nav {
 }
 
 .card {
-  border: solid black 3px;
+  border: solid white 3px;
   margin: 10px 5px;
   display: flex;
   justify-content: space-between;
-  background-color: #cdcdfa;
+  background-color: #555555;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card a{
+  background-color: #555555;
 }
 
 .card img {
   max-width: 400px;
   border: solid gray 1px;
   margin: 5px;
+  background-color: #555555;
 }
 
 .card .links img {
   height: 20px;
   width: 20px;
-  border: none;
+  border: solid black 2px;
+  background-color: white;
+}
+
+.card .links img:hover {
+  height: 20px;
+  width: 20px;
+  border: solid white 2px;
+  background-color: #dddddd;
 }
 
 .card .links {
   text-align: center;
+  background-color: #555555;
 }
 
 .card .info-wrapper {
   margin: 5px;
+  background-color: #555555;
 }
 
 .card .title {
@@ -69,20 +89,25 @@ nav {
   font-weight: 700;
   text-align: center;
   margin-bottom: 10px;
+  background-color: #555555;
+  
 }
 
 .card .description {
   margin-bottom: 10px;
+  background-color: #555555;
 }
 
 .card .tech-used-heading {
   font-weight: 700;
   margin-bottom: 5px;
+  background-color: #555555;
 }
 
 .card .tech-used {
   display: flex;
   flex-wrap: wrap;
+  background-color: #555555;
 }
 
 .card .tech-item {
