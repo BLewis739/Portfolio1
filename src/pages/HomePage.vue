@@ -22,8 +22,8 @@
         Outside of programming, I have several artistic pursuits in design, multimedia production, and live performance. Prior to becoming a developer, I worked as a science teacher, and helped young people pique their interest in technology.
       </div>
       <div class="button-container">
-        <router-link to="/projects" class="nav-link">Click to See My Most Recent Projects</router-link>
-        <button v-on:click="handleClick">Click to View a PDF of My Resume</button>
+        <button v-on:click="handleProjectsClick" class="home-link">Click to View My Recent Projects</button>
+        <button v-on:click="handlePDFClick" class="home-link">Click to View My Resume (PDF)</button>
       </div>
     </div>
   </div>
@@ -33,8 +33,11 @@
 export default {
   name: "HomePage",
   methods: {
-    handleClick() {
+    handlePDFClick() {
       window.location.href = ('https://docdro.id/hSYuWia')
+    },
+    handleProjectsClick() {
+      this.$router.push('/projects')
     }
   }
 }
