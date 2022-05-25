@@ -23,7 +23,7 @@
       </div>
       <div class="button-container">
         <router-link to="/projects" class="nav-link">Click to See My Most Recent Projects</router-link>
-        <button>Click to Download a PDF of My Resume</button>
+        <button v-on:click="handleClick">Click to View a PDF of My Resume</button>
       </div>
     </div>
   </div>
@@ -31,6 +31,11 @@
 
 <script>
 export default {
-  name: "HomePage"
+  name: "HomePage",
+  methods: {
+    handleClick() {
+      window.location.href = ('https://docdro.id/hSYuWia')
+    }
+  }
 }
 </script>
