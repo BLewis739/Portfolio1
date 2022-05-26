@@ -288,6 +288,12 @@ nav {
   margin-bottom: 20px;
 }
 
+.contact-directions {
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
 .icon {
   width: 50px;
   background-color: white;
@@ -325,4 +331,5 @@ nav {
     font-size: 16px;
     margin-bottom: 20px;
   }
+
 }
