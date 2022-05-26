@@ -274,8 +274,28 @@ nav {
 .social-links {
   margin: 15px;
   text-align: center;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items:flex-start;
+  margin-left: 200px;
 }
 
-.social-link {
-  margin: 20px;
+.icon {
+  width: 50px;
+  background-color: white;
+}
+
+.contact-text-container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro-contact-text {
+  text-align: left;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px;
+  padding: 25px;
+  border: solid white 5px;
+  background-color: #555555;
 }
