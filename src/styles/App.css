@@ -281,9 +281,17 @@ nav {
   margin-left: 200px;
 }
 
+.email, .linkedin, .github, .contact-directions{
+  display:flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
 .icon {
   width: 50px;
   background-color: white;
+  margin-right: 50px;
 }
 
 .contact-text-container {
@@ -298,4 +306,23 @@ nav {
   padding: 25px;
   border: solid white 5px;
   background-color: #555555;
+}
+
+@media screen and (max-width: 600px) {
+  .social-links {
+    margin-left: 50px;
+  }
+  
+  .icon {
+    margin-right: 25px;
+  }
+
+  .intro-contact-text {
+    margin: 25px;
+  }
+
+  .email, .linkedin, .github, .contact-directions{
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }

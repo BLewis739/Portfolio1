@@ -9,14 +9,17 @@
         links to my LinkedIn and GitHub profiles. Please feel free to reach out anytime!
       </div>
       <div class="social-links">
+        <div class="contact-directions">
+          Click the icon to navigate!
+        </div>
         <div class="email">
           <a href="mailto:blewis739@gmail.com" ><img src="../assets/EmailIcon.png" class="icon"></a> BLewis739@gmail.com
         </div>
         <div class="linkedin">
-          <a href="https://www.linkedin.com/in/bradlewis739/" target="_blank"><img src="../assets/LinkedInIcon.png" class="icon"></a> linkedin.com/in/bradlewis739
+          <a href="https://www.linkedin.com/in/bradlewis739/" target="_blank"><img src="../assets/LinkedInIcon.png" class="icon"></a>LinkedIn.com/in/BradLewis739
         </div>
         <div class="github">
-          <a href="https://github.com/BLewis739" target="_blank"><img src="../assets/GithubIcon.png" class="icon"></a> github.com/BLewis739
+          <a href="https://github.com/BLewis739" target="_blank"><img src="../assets/GithubIcon.png" class="icon"></a>GitHub.com/BLewis739
         </div>
       </div>
     </div>
