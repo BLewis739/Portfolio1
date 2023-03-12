@@ -6,7 +6,7 @@
       </div>
       <div class='links'>
         <a :href="item.githubLink" target="_blank"><img src="../assets/GithubIcon.png"></a>
-        <a :href="item.deployedLink" target="_blank"><img src="../assets/ExternalIcon.png"></a>
+        <!-- <a :href="item.deployedLink" target="_blank"><img src="../assets/ExternalIcon.png"></a> -->
       </div>
       <div class="description">
       {{item.description}}
